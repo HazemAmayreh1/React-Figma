@@ -1,0 +1,48 @@
+.button {
+    background-color: #111B47;
+    width: 189.13px;  
+    height: 36px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    justify-content: center;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #0a0f2a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+    .button {
+        width: 140px;  
+        height: 24px; 
+        font-size: 11px; 
+        padding: 4px 12px; 
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .button {
+        width: 150px;  
+        height: 25px;
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .button {
+        width: 160px; 
+        height: 26px;
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+}

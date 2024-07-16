@@ -1,0 +1,142 @@
+.hero {
+    margin: 0 auto;
+}
+
+.lr {
+    display: flex;
+    width: 100%; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px; 
+    width: 70%;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 50%;
+}
+
+.title {
+    font-size: 24px;
+    width: 50%;
+}
+
+.descraption {
+    color: #505F98;
+    font-weight: 400;
+    line-height: 1.6; 
+    font-size: 18px;
+    width: 50%;
+    
+}
+
+.lightBtn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+    width: 189.13px;  
+    height: 26px;
+}
+
+.lightBtn:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.right {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.right img {
+    max-width: 100%; 
+    height: auto;
+    
+} 
+
+.big{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 50%;
+    padding: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.col img {
+    width: 40px;
+    
+}
+.col p {
+    color:#5D6970;
+   
+}
+.seaction{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+@media (max-width: 768px) {
+    .lr {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 12px; 
+        text-align: center;
+        width: 80%;
+    }
+
+    .descraption {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .lightBtn {
+        font-size: 12px; 
+        width: 100%;
+    
+    }
+
+    .right img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .left {
+        width: 80%;
+    }
+}
